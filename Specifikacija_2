@@ -1,0 +1,38 @@
+Taisnstūra laukuma kalkulators
+
+1. Problēma:
+Izveidojiet vienkāršu lietojumprogrammu, kas aprēķina taisnstūra laukumu.
+
+2. Ievades vērtības:
+- garums (pozitīvs decimālskaitlis vai vesels skaitlis)
+- Platums (pozitīvs decimālskaitlis vai vesels skaitlis)
+
+3. Izvade:
+- Taisnstūra laukums
+
+4. Funkcionalitāte:
+- Nolasiet lietotāja ievadīto taisnstūra garumu un platumu.
+- Apstipriniet ievadi, lai nodrošinātu, ka garums un platums ir pozitīvi skaitļi.
+- Aprēķiniet laukumu, izmantojot formulu: "laukums = garums * platums";.
+- Parādīt aprēķināto laukumu.
+
+5. Īstenošana:
+- Izmantojiet atbilstošas ​​funkcijas/metodes ievadei, datu validācijai un aprēķināšanai.
+- Parādiet jēgpilnus lietotāja ievades un izvades norādījumus.
+- Apstrādājiet iespējamās kļūdas (piemēram, neciparu ievadi).
+
+6. Ievades/izejas paraugs:
+
+Ievadiet taisnstūra garumu: 5.2
+Ievadiet taisnstūra platumu: 3.8
+
+Taisnstūra laukums ir: 19,76 cm2.
+
+7. Papildu prasības:
+- Nodrošiniet, lai programma būtu labi dokumentēta ar komentāriem, kas izskaidro katras
+koda sadaļas mērķi.
+- Ievērojiet koda lasāmības un struktūras paraugpraksi.
+
+8. Pārbaude:
+- Pārbaudiet programmu, izmantojot dažādas ievades malu garumiem (piemēram, garums
+vai platums ir 0).

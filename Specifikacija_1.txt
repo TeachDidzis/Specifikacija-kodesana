@@ -1,0 +1,41 @@
+Skaitļu minēšanas programma
+
+Mērķis: 
+Lietotājam jāuzmin nejauši izvēlēts skaitlis noteiktā diapazonā.
+
+Ievades dati: 
+Lietotājs ievada savu minējumu - vesels skaitlis.
+
+Funkcionalitāte:
+Dators ģenerē nejaušu skaitli diapazonā no 1 līdz 100.
+Lietotājam tiek dots 10 mēģinājumu skaits, lai uzminētu pareizo skaitli.
+Lietotājs ievada prasīto vērtību un programma salīdzina to ar ģenerēto skaitli.
+Ja lietotāja ievadītais skaitlis ir lielāks par ģenerēto skaitli, programma izvada: "Mans skaitlis ir mazāks!"
+Ja lietotāja ievadītais skaitlis ir mazāks par ģenerēto skaitli, programma izvada: "Mans skaitlis ir lielāks!"
+Ja lietotājs uzmin pareizo skaitli, programma izvada: "Apsveicam! Jūs uzminējāt pareizo skaitli X!"(X - ģenerētais skaitlis).
+Ja lietotājs neuzmin pareizo skaitli 10 mēģinājumu laikā, programma paziņo: "Jūs zaudējāt. Pareizais skaitlis bija X!"(X - ģenerētais skaitlis)
+Pēc spēles beigām lietotājam tiek piedāvāts spēlēt vēlreiz vai iziet no spēles.
+
+Īstenošana:
+Programmas īstenošanai importē random bibliotēku nejauša skaitļa ģenerēšanai;
+Izveido funkciju "spele", kas atbild par programmas darbību;
+Izveido mainīgos "meginajumi", "nejauss_skaitlis", "minejums" un piešķir tiem atbilstošas sākuma vērtības;
+Izmanto while ciklu, lai atkārtotu lietotāja ievadi un vērtību salīdzināšanas pārbaudi;
+Izveido mainīgo "spelet_atkal" ar teksta ievades funkciju un salīdzini ievadīto atbildi, lai atkārtotu vai beigtu programmas darbību.
+
+Ievades/izejas paraugs:
+  Esmu iedomājies nejaušu skaitli no 1 - 100. Tavs uzdevums ir to uzminēt ar 10 mēģinājumiem.
+  Atlikušie mēģinājumi: 10
+  Ievadiet minējumu: 20
+  Mans skaitlis ir lielāks
+  
+  Atlikušie mēģinājumi: 9
+  Ievadiet minējumu: 50
+  Mans skaitlis ir mazāks
+
+Papildus prasības:
+Nodrošini, lai programma būtu labi dokumentēta ar komentāriem, kas paskaidro katras koda sadaļas mērķi.
+Ievērot koda lasāmības un struktūras paraugpraksi.
+
+
+

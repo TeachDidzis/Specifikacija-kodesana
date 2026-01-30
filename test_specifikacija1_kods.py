@@ -3,9 +3,20 @@ from unittest.mock import patch, MagicMock
 from io import StringIO
 import random
 import sys
+import importlib.util
 
-# Import the function to test
-from specifikacija1_kods import spele
+# Import the function to test by loading the module without executing the main call
+spec = importlib.util.spec_from_file_location("specifikacija1_kods", "/workspaces/Specifikacija-kodesana/specifikacija1_kods.py")
+module = importlib.util.module_from_spec(spec)
+
+# Mock the input during module load to prevent the main spele() call from running
+with patch('builtins.input', side_effect=ValueError("Module import")):
+    try:
+        spec.loader.exec_module(module)
+    except (ValueError, EOFError):
+        pass
+
+spele = module.spele
 
 
 class TestSpele(unittest.TestCase):
